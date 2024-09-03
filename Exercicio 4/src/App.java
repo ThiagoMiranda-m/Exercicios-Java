@@ -5,7 +5,7 @@ public class App {
         Scanner scan = new Scanner(System.in);
         int A = scan.nextInt();
         int B = scan.nextInt();
-        int C = A + B;
+        int C = A * B;
         System.out.println("SOMA = " + C);
     }
 }
